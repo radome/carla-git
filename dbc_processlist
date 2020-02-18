@@ -18,7 +18,7 @@ use LWP::UserAgent;
 use Data::Dumper;
 use Getopt::Long;
 
-my $default_group = 'compara';
+my $default_group = 'production';
 my ($group, $type, $server_regex, $without_loads, $help);
 GetOptions(
     "g|group=s" => \$group,
