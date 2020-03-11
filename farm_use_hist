@@ -25,7 +25,7 @@ my $width = 100;
 our $scale_factor = $width/100;
 my @all_bjobs = `bjobs -w -u all`;
 my $user      = $ENV{USER};
-my $secondary_user = 'compara_ensembl';
+my $secondary_user = 'ensprod';
 my $genebuild_user;
 GetOptions(
     "g" => \$genebuild_user,
